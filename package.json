@@ -1,0 +1,30 @@
+{
+  "name": "Engine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "draft-convert": "^2.1.12",
+    "html-webpack-plugin": "^5.3.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "sass": "^1.41.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "web-vitals": "^1.1.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
