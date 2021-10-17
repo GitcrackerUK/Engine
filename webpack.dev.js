@@ -9,8 +9,25 @@ module.exports = merge(common, {
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),
+        // Enable compression
+        compress: true,
+
+        // Enable hot reloading
+        hot: true,
+
+        host:'http://127.0.0.1/',
+
+        // Opens browser on startup
         open: true,
-        clientLogLevel: 'silent',
+        
+        // Port o which it is running
+        port: 8080,
+
+        // 
+        open:"Chrome",
+
+        //
+        openPage:'index.html'
     },
     mode: 'development',
     watch: true,
