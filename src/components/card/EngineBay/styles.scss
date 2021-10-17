@@ -1,0 +1,26 @@
+.cylinderBlockWrapper {
+    border-radius: 10px;
+    margin: 5px auto;
+    height: 306px;
+    width: 101px;
+    background-color: #c4c4c4;
+}
+
+.cylinderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    border-bottom:solid 1px black;
+}
+.cylinder{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.fired{
+    @extend .cylinder;
+    background-color: red;
+}
