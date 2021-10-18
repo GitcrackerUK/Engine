@@ -38,7 +38,7 @@ export default class Block extends Component {
             });
             this.setState({ fired: { ...this.state.fired, [stroke]: true } });
             i += 1;
-            if (i === 5) {
+            if (i === 4) {
                 i = 0;
             }
         }, 2000);
